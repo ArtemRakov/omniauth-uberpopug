@@ -24,7 +24,7 @@ module OmniAuth
       end
 
       def raw_info
-        @raw_info ||= access_token.get('/accounts/current').parsed
+        @raw_info ||= access_token.get('/account').parsed
       end
     end
   end
