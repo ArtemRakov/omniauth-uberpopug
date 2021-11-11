@@ -6,7 +6,7 @@ module OmniAuth
       option :name, :uberpopug
 
       option :client_options, {
-        site: 'http://206.81.22.88:3000/'
+        site: 'http://206.81.22.88:3000/',
         authorize_url: 'http://206.81.22.88:3000/oauth/authorize'
       }
 
