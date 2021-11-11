@@ -6,8 +6,8 @@ module OmniAuth
       option :name, :uberpopug
 
       option :client_options, {
-        site: 'http://localhost:3000',
-        authorize_url: 'http://localhost:3000/oauth/authorize'
+        site: 'http://206.81.22.88:3000/'
+        authorize_url: 'http://206.81.22.88:3000/oauth/authorize'
       }
 
       uid { raw_info['public_id'] }
